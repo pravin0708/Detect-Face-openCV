@@ -48,6 +48,7 @@ while True:
     # Display the resulting frame
     cv2.imshow('Video', frame)
 
-# When everything is done, release the capture
+# When everything is done,
+# release the capture
 video_capture.release()
 cv2.destroyAllWindows()
