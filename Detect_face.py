@@ -14,7 +14,7 @@ anterior = 0
 while True:
     if not video_capture.isOpened():
         print('Unable to load camera.')
-        sleep(5)
+        sleep(10)
         pass
 
     # Capture frame-by-frame
